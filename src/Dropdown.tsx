@@ -24,7 +24,7 @@ const Dropdown = ({ label, value, name, onChange }: IDropdownProps) => {
 
   return (
     <Box sx={{ minWidth: 50, mb: 4 }}>
-      <FormControl fullWidth>
+      <FormControl fullWidth size="small">
         <InputLabel id={`${name}-label`}>{label}</InputLabel>
         <Select
           labelId={`${name}-label`}

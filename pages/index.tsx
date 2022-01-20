@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 
-import Dropdown from "../src/Dropdown";
+import Dropdown from "@/src/Dropdown";
 
 const Home: NextPage = () => {
   const [value, setValue] = useState({
@@ -48,9 +48,9 @@ const Home: NextPage = () => {
 
   return (
     <Container maxWidth="xs">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h3" component="h1" gutterBottom mb={5}>
-          Sleep calculation
+      <Box sx={{ my: 10 }}>
+        <Typography variant="h4" component="h1" gutterBottom mb={5} role="heading">
+          Sleep behavior
         </Typography>
         <Dropdown
           name="durationInBed"
